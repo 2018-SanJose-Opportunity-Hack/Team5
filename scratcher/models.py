@@ -7,3 +7,4 @@ class User(models.Model):
     current_balance = models.FloatField()
     saving_category = models.IntegerField()
     delta = models.FloatField()
+# 

@@ -10,7 +10,13 @@
     <h3>Create an email</h3>
     <form action="/createEmail" method="post">
         <label for="email">Email:</label>
-        <input type="email" name="email">
+        <input type="email" name="email"><br>
+        <label for="balance">Current Balance:</label>
+        <input type="float" name="balance"><br>
+        <label for="scategory">Saving Category:</label>
+        <input type="text" name="scategory"><br>
+        <label for="delta">Delta:</label>
+        <input type="number" name="delta"><br>
         <button>Create</button>
     </form>
 
@@ -18,6 +24,7 @@
     <form action="/login" method="post">
         <label for="email">Email:</label>
         <input type="email" name="email">
+        <button>Login</button>
     </form>
 
 </body>
